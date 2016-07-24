@@ -61,6 +61,11 @@
 * [Airbnb：我们的安卓客户端是如何使用 RxJava 的(Felipe Lima)](https://realm.io/cn/news/kau-felipe-lima-adopting-rxjava-airbnb-android/)
 
 	Reactive编程和RxJava是最近常常引起强烈争论的话题，争论过程中问题很多，不确定性也很多。在Airbnb的客户端里，我们是如何采纳这些范式和技术，包括动力，实现的困难，和这一路走来的经验教训。我们还会看些产品的代码，比较 imperative编程和reactive编程的优劣，然后分别讨论它们的优势和缺陷。
+	
+* [带你学开源项目：RxLifecycle － 当Activity被destory时自动暂停网络请求](http://android.jobbole.com/83847/)
+
+	本文分析思路不是从源码里抽代码出来一步步跟踪，而是提出问题，一步步思考解决方法，从而学习到开源项目的思维精华，而不仅仅是了解该项目的具体实现。笔者认为这种方式更有利于读者提高自身思维方式和技术能力。
+
 
 ## Android中的HTTPS
 
@@ -155,6 +160,12 @@
 
 * [Android APK瘦身实践](http://android.jobbole.com/82401/)
 
+* [Android着色器Tint研究](http://android.jobbole.com/83875/)
+
+	Tint 这个东西 主要用来减少apk体积的，比如说我现在有一个textview，他的背景图 有两种，一种是当获得焦点时显示的a图，另一种是 失去焦点时显示的b图。
+
+
+
 ## Android线程池
 
 * [Android 性能优化之使用线程池处理异步任务](http://android.jobbole.com/82092/#comment-91762)
@@ -172,8 +183,69 @@
 
 	这种方案用的也很普遍，相信只要细心观察，就会发现类似微博、Facebook、或者一些图片壁纸类的APP，在滑动时未加载的图片是不会立刻加载呈现的，只有当滑动停止后才会加载，这里需要注意一点的是，只加载当前屏幕内的图片。这么一说可能有童鞋就明白了。我们可以通过继承RecyclerView去自定义一个滑动控件，通过继承OnScrollListener后重写其 onScrolled方法 和 onScrollStateChanged 等方法来做相应处理。
 	
+* [值得收藏的 ViewHolder 工具类实现](http://android.jobbole.com/83917/)
+
+	在开发APP的过程中，攻城狮少不了要跟ListView、GridView这些组件眉来眼去，暗送几波秋波。自然原生态美人BaseAdapter更是程序员的最爱，有了它，我们想怎么干就能怎么干，嘿嘿，你懂的O(∩_∩)O哈哈~
+
+	但是，每次写一个BaseAdapter，我们都很自觉的给他写一个ViewHolder，一两个还好，万一应用程序中有数不清的ListView，呵呵~你妹！千篇一律，看得都审美疲劳。作为最伟大的第二十二世纪的程序员们，脱掉、搞上永远是我们最真挚的追求，所以我们要怎么将ViewHolder从BaseAdapter中脱掉呢？绝非不是不用，而是要将其搞成一个华丽丽的工具类实现，收入角落那个寂寞得tools类中。
+	
+## Android性能优化
+
+* [Android 性能优化之被忽视的内存泄漏](http://android.jobbole.com/83898/)
+
+	写博客就像讲故事，得有起因，经过，结果，人物，地点和时间。今天就容我给大家讲一个故事。人物呢，肯定是我了。故事则发生在最近的这两天,地点在coder君上班的公司。那天无意中我发现了一个奇怪的现象，随着我点开我们App的页面，Memory Monitor中显示占用的内存越来越多（前面的页面已经finish掉了）。咦？什么鬼？
+	
+
+## Android进程间通信
+
+* [Android 手写 Binder 教你理解 android 中的进程间通信](http://android.jobbole.com/83957/)
+
+	其实就从我们普通app开发者的角度来看，仅仅对于android应用层的话，Binder就是客户端和服务端进行通信的媒介。
+	
+* [Android 多进程编程 15问15答！](http://android.jobbole.com/83920/)
+
+	阅读本文 需要对android 多进程编程有一定了解。
+	
+
+## ListView相关
+
+* [ListView中的RecycleBin机制](http://android.jobbole.com/83870/)
+
+	此处会传入一个convertView变量，它的值有可能是null，也有可能不是null，如果不为null，我们就可以复用该convertView，对convertView里面的一些控件赋值后可以将convertView作为getView的返回值返回，这么做的目的是减少LayoutInflater.inflate()的调用次数，从而提升了性能（LayoutInflater.inflate()比较消耗性能）。
+
+	本文将介绍ListView中的RecycleBin机制，让大家对ListView中的优化机制有个概括的了解，同时也说明convertView的来龙去脉。
+	
+## 从零开始的Android新项目系列
+
+* [从零开始的Android新项目(1)：架构搭建篇](http://android.jobbole.com/82624/)
+* [从零开始的Android新项目(2)：Gradle篇](http://android.jobbole.com/82747/)
+* [从零开始的Android新项目(3)：谁告诉你MVP和MVVM是互斥的](http://android.jobbole.com/82809/)
+* [从零开始的Android新项目(4)：Dagger2篇](http://android.jobbole.com/82820/)
+* [从零开始的Android新项目(5)：Repository层(上)](http://android.jobbole.com/83210/)
+* [从零开始的Android新项目(6)：Repository层(下)](http://android.jobbole.com/83234/)
+* [从零开始的Android新项目(7)：Data Binding入门篇](http://android.jobbole.com/83688/)
+* [从零开始的Android新项目(8)：Data Binding高级篇](http://android.jobbole.com/83842/)
+
+## Handler相关
+
+* [Android消息处理机制：Handler|Message](http://android.jobbole.com/83823/)
+
+	在日常开发中，不管出于什么目的，我们可能都会用到Handler来异步更新UI，有时是为了将一些费时的操作放到异步线程去处理，然后通过Handler将数据更新到UI线程，有时是为了在子线程里更新UI，种种原因，反正我们最后都是选择了直接的Handler+Message组合或者AsyncTask，而了解AsyncTask的同学都知道，AsyncTask内部就是通过Handler和Message实现的线程间通信，所以我们还是要好好熟悉一下这位老朋友
+	
 
 
+
+
+
+	
+
+
+	
+	
+
+
+	
+	
 
 
 
