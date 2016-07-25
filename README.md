@@ -1,3 +1,6 @@
+
+[TOC]
+
 # Android进阶技能点
 
 
@@ -43,6 +46,8 @@
 * [读懂 Android 中的代码混淆](http://droidyue.com/blog/2016/07/10/understanding-android-obfuscated-code-by-proguard/)
 
 	介绍一些混淆的知识和注意事项
+	
+* [Android studio使用心得(五)---代码混淆和破解apk](http://my.oschina.net/aibenben/blog/371889)
 
 ## Android内测泄漏检测
 
