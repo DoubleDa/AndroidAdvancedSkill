@@ -237,6 +237,18 @@
 
 	在日常开发中，不管出于什么目的，我们可能都会用到Handler来异步更新UI，有时是为了将一些费时的操作放到异步线程去处理，然后通过Handler将数据更新到UI线程，有时是为了在子线程里更新UI，种种原因，反正我们最后都是选择了直接的Handler+Message组合或者AsyncTask，而了解AsyncTask的同学都知道，AsyncTask内部就是通过Handler和Message实现的线程间通信，所以我们还是要好好熟悉一下这位老朋友
 	
+	
+## Android资源动态加载
+
+* [Android apk动态加载机制的研究](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1013/1759.html)
+
+	首先宿主程序会到文件系统比如sd卡去加载apk，然后通过一个叫做proxy的activity去执行apk中的activity。
+关于动态加载apk，理论上可以用到的有DexClassLoader、PathClassLoader和URLClassLoader。
+DexClassLoader ：可以加载文件系统上的jar、dex、apk.
+
+
+
+	
 
 
 
