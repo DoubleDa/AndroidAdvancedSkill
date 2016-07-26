@@ -1,5 +1,6 @@
-
+***
 [TOC]
+***
 
 # Android进阶技能点
 
@@ -220,6 +221,11 @@
 
 	本文将介绍ListView中的RecycleBin机制，让大家对ListView中的优化机制有个概括的了解，同时也说明convertView的来龙去脉。
 	
+* [Listview异步加载图片之优化篇](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2013/0303/948.html)
+
+	在 APP应用中，listview的异步加载图片方式能够带来很好的用户体验，同时也是考量程序性能的一个重要指标。关于listview的异步加载，网上 其实很多示例了，中心思想都差不多，不过很多版本或是有bug，或是有性能问题有待优化。有鉴于此，本人在网上找了个相对理想的版本并在此基础上进行改 造，下面就让在下阐述其原理以探索个中奥秘
+
+	
 ## 从零开始的Android新项目系列
 
 * [从零开始的Android新项目(1)：架构搭建篇](http://android.jobbole.com/82624/)
@@ -251,6 +257,17 @@ DexClassLoader ：可以加载文件系统上的jar、dex、apk.
 * [好好和h5沟通！几种常见的hybrid通信方式](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0418/4157.html)
 
 	说起hybrid大家不会陌生，主要意思就是native和h5混合开发。为什么要这样做呢？大家可以想象一下针对于同一个活动，如果使用纯native的开发方式，Android和iOS两边都要维护同一套界面甚至是逻辑，这样开发和维护的成本会很大，而使用hybrid的开发方式的话，让前端的同学去写一套界面和逻辑，对于native端来说只要使用对应的容器去展示就可以了(对于Android来说这个容器当然就是WebView)。那为什么不所有的页面都使用这种方式开发呢？因为使用h5来展示界面的话用户体验始终是不如native的，所以在这两者之间我们需要一个权衡。
+	
+	
+## Android apk动态加载机制的研究
+
+* [Android apk动态加载机制的研究(一)](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1013/1759.html)
+
+* [Android apk动态加载机制的研究(二):资源加载和activity生命周期管理](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1013/1760.html)
+
+
+
+
 	
 	
 
