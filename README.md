@@ -36,7 +36,9 @@
 
 ## 实现Android网络请求框架
 
-* 
+* [打造属于自己的Android网络库](http://www.jianshu.com/p/16736df632a1)
+
+	Android学习中网络是必不可少的一部分，甚至是重中之重。开发中可能我们会使用一些很成熟优秀的网络框架，如：OkHttp，Retrofit，Volley等。图片库：Fresco，Glide，Picasso，ImageLoader等。为了深入的学习一起来打造一个属于自己的网络库吧。
 
 ## 实现Android图片加载框架
 
