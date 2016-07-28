@@ -1,11 +1,41 @@
-***
-[TOC]
-***
-
 # Android进阶技能点
 
+**目录**
 
-## RecyclerView
+- [1.RecyclerView](## 1.RecyclerView)
+- [2.Android主题切换](## 2.Android主题切换)
+- [3.实现Android网络请求框架](## 3.实现Android网络请求框架)
+- [4.实现Android图片加载框架](## 4.实现Android图片加载框架)
+- [5.Android代码混淆](## 5.Android代码混淆)
+- [6.Android内测泄漏检测](## 6.Android内测泄漏检测)
+- [7.Realm](## 7.Realm)
+- [8.RxJava和RxAndroid](## 8.RxJava和RxAndroid)
+- [9.Android中的HTTPS](## 9.Android中的HTTPS)
+- [10.Android自定义view](## 10.Android自定义view)
+- [11.Android事件分发](## 11.Android事件分发)
+- [12.Android插件化开发](## 12.Android插件化开发)
+- [13.Android Dex分包](## 13.Android Dex分包)
+- [14.Apk瘦身](## 14.Apk瘦身)
+- [15.Android线程池](## 15.Android线程池)
+- [16.RecyclerView优化](## 16.RecyclerView优化)
+- [17.Android性能优化](## 17.Android性能优化)
+- [18.Android进程间通信](## 18.Android进程间通信)
+- [19.ListView相关](## 19.ListView相关)
+- [20.从零开始的Android新项目系列](## 20.从零开始的Android新项目系列)
+- [21.Handler相关](## 21.Handler相关)
+- [22.Android资源动态加载](## 22.Android资源动态加载)
+- [23.Android与js沟通](## 23.Android与js沟通)
+- [24.Android apk动态加载机制的研究](## 24.Android apk动态加载机制的研究)
+- [25.Android多进程](## 25.Android多进程)
+- [26.Android系统级原理](## 26.Android系统级原理)
+- [27.RxJava+Retrofit+Dagger2](## 27.RxJava+Retrofit+Dagger2)
+- [28.Android优化工具](## 28.Android优化工具)
+- [29.Android新编译系统](## 29.Android新编译系统)
+- [30.Android注解框架](## 30.Android注解框架)
+
+
+
+## 1.RecyclerView
 
 
 * [深入浅出RecyclerView(张涛)](http://kymjs.com/code/2016/07/10/01)
@@ -15,9 +45,14 @@
 * [RecyclerView的通用适配器，和滚动时不加载图片的封装(张涛)](http://kymjs.com/code/2015/10/11/01)
 
 	介绍RecyclerView的BaseAdapter、BaseViewHolder的封装，及滑动图片不加载。
+	
+* [那些酷炫的RecyclerView开源库整理](http://android.jobbole.com/83410/)
+
+	最近在研究RecyclerView ，还是习惯整理一下开源项目放到github上 ，欢迎提交更新 ，fork，star。 排序纯属个人直觉。
 
 
-## Android主题切换
+
+## 2.Android主题切换
 
 * [Android夜间模式实现](http://kymjs.com/code/2015/05/26/01)
 
@@ -34,17 +69,25 @@
 
 
 
-## 实现Android网络请求框架
+## 3.实现Android网络请求框架
 
 * [打造属于自己的Android网络库](http://www.jianshu.com/p/16736df632a1)
 
 	Android学习中网络是必不可少的一部分，甚至是重中之重。开发中可能我们会使用一些很成熟优秀的网络框架，如：OkHttp，Retrofit，Volley等。图片库：Fresco，Glide，Picasso，ImageLoader等。为了深入的学习一起来打造一个属于自己的网络库吧。
+	
+* [Android网络操作和优化相关](http://android.jobbole.com/83394/)
 
-## 实现Android图片加载框架
+	Android程序最重要的模块就是网络部分，如何从网络上下载数据，如何将处理过的数据上传至网络，往往是android程序的关键环节。前几天偶一朋友遇到这么一个问题：如何使用volley实现文件上传。
 
 
+## 4.实现Android图片加载框架
 
-## Android代码混淆
+* [Google I/O 2013:Volley加载图片添加缓存处理](http://android.jobbole.com/81287/)
+
+	Google I/O 2013已经结束，它让我们对Android将来的发展有了更大的期待。今年I/O大会上展示的令人激动的创新之一是名为Volley库。Volley是一个处理并缓存网络请求的库，它把开发者从不同的应用中编写相同代码的泥潭中拯救出来。编写相同代码从来都不是有趣的，还会增加开发者的错误几率。正式考虑了这一点，Google创造了Volley。
+
+
+## 5.Android代码混淆
 
 * [读懂 Android 中的代码混淆](http://droidyue.com/blog/2016/07/10/understanding-android-obfuscated-code-by-proguard/)
 
@@ -52,19 +95,19 @@
 	
 * [Android studio使用心得(五)---代码混淆和破解apk](http://my.oschina.net/aibenben/blog/371889)
 
-## Android内测泄漏检测
+## 6.Android内测泄漏检测
 
 * [用LeakCanary检测内存泄漏](https://realm.io/cn/news/droidcon-ricau-memory-leaks-leakcanary/)
 
 	LeakCanary是一个帮助检测和修复内存泄漏的工具。
 
-## Realm
+## 7.Realm
 
 * [Realm快速入门](https://realm.io/cn/docs/java/latest/#section)
 
 	更好的移动端数据库意味着更好的移动端应用。Realm 快速、易用并且免费，深受开发者和亿万用户喜爱。
 
-## RxJava和RxAndroid
+## 8.RxJava和RxAndroid
 
 * [Airbnb：我们的安卓客户端是如何使用 RxJava 的(Felipe Lima)](https://realm.io/cn/news/kau-felipe-lima-adopting-rxjava-airbnb-android/)
 
@@ -75,26 +118,26 @@
 	本文分析思路不是从源码里抽代码出来一步步跟踪，而是提出问题，一步步思考解决方法，从而学习到开源项目的思维精华，而不仅仅是了解该项目的具体实现。笔者认为这种方式更有利于读者提高自身思维方式和技术能力。
 
 
-## Android中的HTTPS
+## 9.Android中的HTTPS
 
 * [HTTPS 理论基础及其在 Android 中的最佳实践](http://android.jobbole.com/83787/)
 
 	我们知道，HTTP请求都是明文传输的，所谓的明文指的是没有经过加密的信息，如果HTTP请求被黑客拦截，并且里面含有银行卡密码等敏感数据的话，会非常危险。为了解决这个问题，Netscape 公司制定了HTTPS协议，HTTPS可以将数据加密传输，也就是传输的是密文，即便黑客在传输过程中拦截到数据也无法破译，这就保证了网络通信的安全。
 	
 
-## Android自定义view
+## 10.Android自定义view
 
 * [Android自定义view详解](http://android.jobbole.com/83835/)
 
 	对于我这样一个Android初级开发者来说，自定义View一直是一个遥不可及的东西，每次看到别人做的特别漂亮的控件，自己心里那个痒痒啊，可是又生性懒惰，自己不肯努力去看书，只能望而兴叹，每次做需求用到自定义控件，就直接去Github上找，找到合适的就用，找不到合适的，凑合也用，反正从来没想过要自己来做这样的东西，可是毕业以后到了新公司，为了自己的荣誉，这次不得不硬着头皮自己来了，一个月的紧张开发过后，回头再看，自定义控件也无非那么回事，只要记得几个要领，几乎是手到擒来。
 	
-## Android事件分发
+## 11.Android事件分发
 
 * [Android 中的事件分发和处理](http://android.jobbole.com/83826/)
 
 	上次跟大家分享了一下自定义View的一下要点，这次跟大家聊一下View的事件分发及处理，为什么主题都是View，因为作为一名初级应用层Android工程师，跟我打交道最多的莫过于各种各样的View，只有详细了解他们各自的习性，才能更好地跟他们沟通交流，做出自己想要的效果。
 	
-## Android插件化开发
+## 12.Android插件化开发
 
 * [Android插件化原理解析(1):概要](http://android.jobbole.com/82746/)
 
@@ -135,7 +178,7 @@
 	目前为止我们已经完成了Android四大组件中Activity，Service以及BroadcastReceiver的插件化，这几个组件各不相同，我们根据它们的特点定制了不同的插件化方案；那么对于ContentProvider，它又有什么特点？应该如何实现它的插件化？
 	
 
-## Android Dex分包
+## 13.Android Dex分包
 
 * [Android dex分包方案](http://android.jobbole.com/82328/)
 
@@ -164,7 +207,7 @@
 		Conversion to Dalvik format failed:Unable to execute dex: method ID not in [0, 0xffff]: 65536
 
 
-## Apk瘦身
+## 14.Apk瘦身
 
 * [Android APK瘦身实践](http://android.jobbole.com/82401/)
 
@@ -174,12 +217,12 @@
 
 
 
-## Android线程池
+## 15.Android线程池
 
 * [Android 性能优化之使用线程池处理异步任务](http://android.jobbole.com/82092/#comment-91762)
 
 
-## RecyclerView优化
+## 16.RecyclerView优化
 
 * [滑动时图片优化方案描述](http://www.2cto.com/kf/201509/443534.html)
 
@@ -197,14 +240,27 @@
 
 	但是，每次写一个BaseAdapter，我们都很自觉的给他写一个ViewHolder，一两个还好，万一应用程序中有数不清的ListView，呵呵~你妹！千篇一律，看得都审美疲劳。作为最伟大的第二十二世纪的程序员们，脱掉、搞上永远是我们最真挚的追求，所以我们要怎么将ViewHolder从BaseAdapter中脱掉呢？绝非不是不用，而是要将其搞成一个华丽丽的工具类实现，收入角落那个寂寞得tools类中。
 	
-## Android性能优化
+## 17.Android性能优化
 
 * [Android 性能优化之被忽视的内存泄漏](http://android.jobbole.com/83898/)
 
 	写博客就像讲故事，得有起因，经过，结果，人物，地点和时间。今天就容我给大家讲一个故事。人物呢，肯定是我了。故事则发生在最近的这两天,地点在coder君上班的公司。那天无意中我发现了一个奇怪的现象，随着我点开我们App的页面，Memory Monitor中显示占用的内存越来越多（前面的页面已经finish掉了）。咦？什么鬼？
 	
+* [Android应用启动优化:一种DelayLoad的实现和原理(上篇)](http://android.jobbole.com/82366/)
 
-## Android进程间通信
+* [Android应用启动优化:一种DelayLoad的实现和原理(下篇)](http://android.jobbole.com/82369/)
+
+* [Android APP内存优化之图片优化](http://android.jobbole.com/83782/)
+
+	网上有很多大拿分享的关于Android性能优化的文章，主要是通过各种工具分析，使用合理的技巧优化APP的体验，提升APP的流畅度，但关于内存优化的文章很少有看到。在Android设备内存动不动就上G的情况下，的确没有必要去太在意APP对Android系统内存的消耗，但在实际工作中我做的是教育类的小学APP，APP中的按钮、背景、动画变换基本上全是图片，在2K屏上（分辨率2048*1536）一张背景图片就会占用内存12M，来回切换几次内存占用就会增涨到上百兆，为了在不影响APP的视觉效果的前提下，有必要通过各种手段来降低APP对内存的消耗，下面是我在实践过程中使用的一些方法，很多都是不太成熟的项目，也不够深入，只是将其作为一种处理方式分享给大家。
+
+	通过DDMS的APP内存占用查看工具分析发现，APP中占用内存最多的是图片，每个Activity中图片占用内存占大半，本文重点分享对图片的内存优化。
+	
+* [Android UI性能优化实战 识别绘制中的性能问题](http://android.jobbole.com/80947/)
+
+	2015年初google发布了Android性能优化典范，发了16个小视频供大家欣赏，当时我也将其下载，通过微信公众号给大家推送了百度云的下载地址（地址在文末，ps:欢迎大家订阅公众号），那么近期google又在udacity上开了系列类的相关课程。有了上述的参考，那么本性能优化实战教程就有了坚实的基础，本系列将结合实例为大家展示如何去识别、诊断、解决Android应用开发中存在的性能问题。那么首先带来的就是大家最关注的渲染的性能优化（~~渲染就是把东西绘制到屏幕上）。
+
+## 18.Android进程间通信
 
 * [Android 手写 Binder 教你理解 android 中的进程间通信](http://android.jobbole.com/83957/)
 
@@ -215,7 +271,7 @@
 	阅读本文 需要对android 多进程编程有一定了解。
 	
 
-## ListView相关
+## 19.ListView相关
 
 * [ListView中的RecycleBin机制](http://android.jobbole.com/83870/)
 
@@ -228,7 +284,7 @@
 	在 APP应用中，listview的异步加载图片方式能够带来很好的用户体验，同时也是考量程序性能的一个重要指标。关于listview的异步加载，网上 其实很多示例了，中心思想都差不多，不过很多版本或是有bug，或是有性能问题有待优化。有鉴于此，本人在网上找了个相对理想的版本并在此基础上进行改 造，下面就让在下阐述其原理以探索个中奥秘
 
 	
-## 从零开始的Android新项目系列
+## 20.从零开始的Android新项目系列
 
 * [从零开始的Android新项目(1)：架构搭建篇](http://android.jobbole.com/82624/)
 * [从零开始的Android新项目(2)：Gradle篇](http://android.jobbole.com/82747/)
@@ -239,14 +295,14 @@
 * [从零开始的Android新项目(7)：Data Binding入门篇](http://android.jobbole.com/83688/)
 * [从零开始的Android新项目(8)：Data Binding高级篇](http://android.jobbole.com/83842/)
 
-## Handler相关
+## 21.Handler相关
 
 * [Android消息处理机制：Handler|Message](http://android.jobbole.com/83823/)
 
 	在日常开发中，不管出于什么目的，我们可能都会用到Handler来异步更新UI，有时是为了将一些费时的操作放到异步线程去处理，然后通过Handler将数据更新到UI线程，有时是为了在子线程里更新UI，种种原因，反正我们最后都是选择了直接的Handler+Message组合或者AsyncTask，而了解AsyncTask的同学都知道，AsyncTask内部就是通过Handler和Message实现的线程间通信，所以我们还是要好好熟悉一下这位老朋友
 	
 	
-## Android资源动态加载
+## 22.Android资源动态加载
 
 * [Android apk动态加载机制的研究](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1013/1759.html)
 
@@ -254,18 +310,77 @@
 关于动态加载apk，理论上可以用到的有DexClassLoader、PathClassLoader和URLClassLoader。
 DexClassLoader ：可以加载文件系统上的jar、dex、apk.
 
-## Android与js沟通
+## 23.Android与js沟通
 
 * [好好和h5沟通！几种常见的hybrid通信方式](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0418/4157.html)
 
 	说起hybrid大家不会陌生，主要意思就是native和h5混合开发。为什么要这样做呢？大家可以想象一下针对于同一个活动，如果使用纯native的开发方式，Android和iOS两边都要维护同一套界面甚至是逻辑，这样开发和维护的成本会很大，而使用hybrid的开发方式的话，让前端的同学去写一套界面和逻辑，对于native端来说只要使用对应的容器去展示就可以了(对于Android来说这个容器当然就是WebView)。那为什么不所有的页面都使用这种方式开发呢？因为使用h5来展示界面的话用户体验始终是不如native的，所以在这两者之间我们需要一个权衡。
 	
 	
-## Android apk动态加载机制的研究
+## 24.Android apk动态加载机制的研究
 
 * [Android apk动态加载机制的研究(一)](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1013/1759.html)
 
 * [Android apk动态加载机制的研究(二):资源加载和activity生命周期管理](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1013/1760.html)
+
+## 25.Android多进程
+
+* [Android多进程编程15问15答](http://android.jobbole.com/83920/)
+
+	阅读本文 需要对android 多进程编程有一定了解
+	
+* [Android应用内多进程的使用及注意事项](http://android.jobbole.com/83771/)
+
+	一个应用默认只有一个进程，这个进程（主进程）的名称就是应用的包名，进程是系统分配资源和调度的基本单位，每个进程都有自己独立的资源和内存空间，其它进程不能任意访问当前进程的内存和资源，系统给每个进程分配的内存会有限制。
+	
+* [关于Android进程保活，你所需要知道的一切](http://android.jobbole.com/82815/)
+
+	关于 Android 平台的进程保活这一块，想必是所有 Android 开发者瞩目的内容之一。你到网上搜 Android 进程保活，可以搜出各种各样神乎其技的做法，绝大多数都是极其不靠谱。前段时间，Github还出现了一个很火的“黑科技”进程保活库，声称可以做到进程永生不死。
+
+	
+
+## 26.Android系统级原理
+
+* [理解Android安全机制](http://android.jobbole.com/82409/)
+
+	本文从Android系统架构着手，分析Android的安全机制以SE Android，最后给出一些Android安全现状和常见的安全解决方案。
+	
+
+## 27.RxJava+Retrofit+Dagger2
+
+* [带你学开源项目：Meizhi Android之RxJava&Retrofit最佳实践](http://android.jobbole.com/82737/)
+
+
+## 28.Android优化工具
+
+* [值得推荐的Android应用性能检测工具列表](http://android.jobbole.com/82572/)
+
+
+## 29.Android新编译系统
+
+* [Android 应用开发编译框架流程与IDE及Gradle概要](http://android.jobbole.com/82031/)
+
+## 30.Android注解框架
+
+* [Android 打造编译时注解解析框架 这只是一个开始](http://android.jobbole.com/80977/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
