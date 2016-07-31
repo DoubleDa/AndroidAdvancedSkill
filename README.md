@@ -85,6 +85,8 @@
 * [Google I/O 2013:Volley加载图片添加缓存处理](http://android.jobbole.com/81287/)
 
 	Google I/O 2013已经结束，它让我们对Android将来的发展有了更大的期待。今年I/O大会上展示的令人激动的创新之一是名为Volley库。Volley是一个处理并缓存网络请求的库，它把开发者从不同的应用中编写相同代码的泥潭中拯救出来。编写相同代码从来都不是有趣的，还会增加开发者的错误几率。正式考虑了这一点，Google创造了Volley。
+	
+* [网络图片加载的封装【从零开始搭建android框架系列（4）】](http://www.jianshu.com/p/e26130a93289)
 
 
 ## 5.Android代码混淆
