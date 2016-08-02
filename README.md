@@ -50,7 +50,11 @@
 
 	最近在研究RecyclerView ，还是习惯整理一下开源项目放到github上 ，欢迎提交更新 ，fork，star。 排序纯属个人直觉。
 
+* [Android LRecyclerView 实现下拉刷新，滑动到底部自动加载更多](http://android.jobbole.com/84060/)
 
+	LRecyclerView是支持addHeaderView、 addFooterView、下拉刷新、分页加载数据的RecyclerView。
+
+	它对 RecyclerView 控件进行了拓展，给RecyclerView增加HeaderView、FooterView，并且不需要对你的Adapter做任何修改。
 
 ## 2.Android主题切换
 
@@ -66,6 +70,10 @@
 
 	今天再给大家带来一篇干货。 Android的主题换肤 ，可插件化提供皮肤包，无需Activity的重启直接实现无缝切换,可高仿网易云音乐的主题换肤。
 	
+* [Android 主题动态切换框架：Prism](https://blog.leancloud.cn/3612/)
+
+	
+
 
 
 
@@ -365,6 +373,14 @@ DexClassLoader ：可以加载文件系统上的jar、dex、apk.
 ## 30.Android注解框架
 
 * [Android 打造编译时注解解析框架 这只是一个开始](http://android.jobbole.com/80977/)
+
+## 31.Material Design相关
+
+* [Material Design 开发利器：Android Design Support Library 介绍](https://blog.leancloud.cn/3306/)
+
+
+
+
 
 
 
