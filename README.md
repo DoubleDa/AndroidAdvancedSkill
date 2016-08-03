@@ -56,6 +56,10 @@
 
 	它对 RecyclerView 控件进行了拓展，给RecyclerView增加HeaderView、FooterView，并且不需要对你的Adapter做任何修改。
 
+* [十秒钟搞定RecyclerView数据绑定](http://gold.xitu.io/entry/575beb7e5bbb500053dbd451)
+
+	在上一个项目里有很多很多很多很多的RecyclerView，然后我需要写很多很多很多很多的Adapter和Viewholder——多倒没问题，但是里面有很多重复的代码这就不能忍了！每一个Adapter和ViewHolder其实做的事情非常的像：视图绑定，数据绑定，点击事件分发。还有啥？既然它们做的事情都一样，为啥我们还要傻傻的继续写着重复的代码？
+
 ## 2.Android主题切换
 
 * [Android夜间模式实现](http://kymjs.com/code/2015/05/26/01)
@@ -69,13 +73,8 @@
 * [Android主题换肤无缝切换](http://android.jobbole.com/82932/)
 
 	今天再给大家带来一篇干货。 Android的主题换肤 ，可插件化提供皮肤包，无需Activity的重启直接实现无缝切换,可高仿网易云音乐的主题换肤。
-	
+
 * [Android 主题动态切换框架：Prism](https://blog.leancloud.cn/3612/)
-
-	
-
-
-
 
 ## 3.实现Android网络请求框架
 
@@ -126,6 +125,10 @@
 * [带你学开源项目：RxLifecycle － 当Activity被destory时自动暂停网络请求](http://android.jobbole.com/83847/)
 
 	本文分析思路不是从源码里抽代码出来一步步跟踪，而是提出问题，一步步思考解决方法，从而学习到开源项目的思维精华，而不仅仅是了解该项目的具体实现。笔者认为这种方式更有利于读者提高自身思维方式和技术能力。
+    
+* [RxAndroid+RxLifecycle+MVP实现异步请求，ButterKnife更新ui](http://www.infocool.net/kb/Android/201607/170013.html)
+
+	各位好，今天的内容应该算是一个小框架了，使用Rx系列配合MVP实现异步请求，使用ButterKnife注入框架更新ui。 今天我主要讲的，今天的内容应该算是一个小框架了，使用Rx系列配合MVP实现异步请求，使用ButterKnife注入框架更新ui。今天我主要讲的是 RxAndroid+RxLifecycle+MVP+ButterKnife整体结合的小框架。
 
 
 ## 9.Android中的HTTPS
@@ -378,76 +381,20 @@ DexClassLoader ：可以加载文件系统上的jar、dex、apk.
 
 * [Material Design 开发利器：Android Design Support Library 介绍](https://blog.leancloud.cn/3306/)
 
+## butterknife相关
 
+* [butterknife官网](http://jakewharton.github.io/butterknife/)
 
+## MVP架构
 
+* [一步一步实现Android的MVP框架](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg%3D%3D&idx=1&mid=2653577546&scene=1&sn=e10be159645a3aa8f6d6f209420fb412&srcid=07289Nbf5unjDpiRXxvw1G90)
 
+	1.Android 开发框架的选择
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	2.如何一步步搭建分层框架
 	
-	
+    3.使用 RxJava 来解决主线程发出网络请求的问题
 
+* [浅谈Andorid开发中的MVP模式](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0225/3994.html)
 
-	
-
-
-
-
-
-	
-
-
-	
-	
-
-
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
+	看到MVP，大家肯定会想什么是MVP呢？这个我可以肯定的告诉大家MVP（Most Valuable Player）是最有价值球员的意思，这当然是开玩笑了。之所以会出现MVP这种架构模式，是因为我相信大家在开发App时，肯定会发现，Activity的负担非常重，既要初始化控件，又要写一些逻辑操作的展示等等，有时候很多Activity中的代码都充当了Controller和Model的角色，所以你会发现Activity违背单一职责原则，负担过重。所以，就出现了这么一种架构模式，叫MVP，并不是最有价值球员哦。
