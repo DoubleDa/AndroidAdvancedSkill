@@ -398,3 +398,7 @@ DexClassLoader ：可以加载文件系统上的jar、dex、apk.
 * [浅谈Andorid开发中的MVP模式](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0225/3994.html)
 
 	看到MVP，大家肯定会想什么是MVP呢？这个我可以肯定的告诉大家MVP（Most Valuable Player）是最有价值球员的意思，这当然是开玩笑了。之所以会出现MVP这种架构模式，是因为我相信大家在开发App时，肯定会发现，Activity的负担非常重，既要初始化控件，又要写一些逻辑操作的展示等等，有时候很多Activity中的代码都充当了Controller和Model的角色，所以你会发现Activity违背单一职责原则，负担过重。所以，就出现了这么一种架构模式，叫MVP，并不是最有价值球员哦。
+	
+	
+* 测试Github是否可用
+
