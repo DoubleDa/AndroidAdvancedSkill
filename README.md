@@ -2,36 +2,9 @@
 
 **目录**
 
-- [1.RecyclerView](## 1.RecyclerView)
-- [2.Android主题切换](## 2.Android主题切换)
-- [3.实现Android网络请求框架](## 3.实现Android网络请求框架)
-- [4.实现Android图片加载框架](## 4.实现Android图片加载框架)
-- [5.Android代码混淆](## 5.Android代码混淆)
-- [6.Android内测泄漏检测](## 6.Android内测泄漏检测)
-- [7.Realm](## 7.Realm)
-- [8.RxJava和RxAndroid](## 8.RxJava和RxAndroid)
-- [9.Android中的HTTPS](## 9.Android中的HTTPS)
-- [10.Android自定义view](## 10.Android自定义view)
-- [11.Android事件分发](## 11.Android事件分发)
-- [12.Android插件化开发](## 12.Android插件化开发)
-- [13.Android Dex分包](## 13.Android Dex分包)
-- [14.Apk瘦身](## 14.Apk瘦身)
-- [15.Android线程池](## 15.Android线程池)
-- [16.RecyclerView优化](## 16.RecyclerView优化)
-- [17.Android性能优化](## 17.Android性能优化)
-- [18.Android进程间通信](## 18.Android进程间通信)
-- [19.ListView相关](## 19.ListView相关)
-- [20.从零开始的Android新项目系列](## 20.从零开始的Android新项目系列)
-- [21.Handler相关](## 21.Handler相关)
-- [22.Android资源动态加载](## 22.Android资源动态加载)
-- [23.Android与js沟通](## 23.Android与js沟通)
-- [24.Android apk动态加载机制的研究](## 24.Android apk动态加载机制的研究)
-- [25.Android多进程](## 25.Android多进程)
-- [26.Android系统级原理](## 26.Android系统级原理)
-- [27.RxJava+Retrofit+Dagger2](## 27.RxJava+Retrofit+Dagger2)
-- [28.Android优化工具](## 28.Android优化工具)
-- [29.Android新编译系统](## 29.Android新编译系统)
-- [30.Android注解框架](## 30.Android注解框架)
+
+
+[TOC]
 
 
 
@@ -103,6 +76,8 @@
 	介绍一些混淆的知识和注意事项
 	
 * [Android studio使用心得(五)---代码混淆和破解apk](http://my.oschina.net/aibenben/blog/371889)
+
+* [ProGuard详解](http://seniorzhai.github.io/2016/04/11/ProGuard%E8%AF%A6%E8%A7%A3/)
 
 ## 6.Android内测泄漏检测
 
@@ -401,4 +376,31 @@ DexClassLoader ：可以加载文件系统上的jar、dex、apk.
 	
 	
 * 测试Github是否可用
+
+## Gradle相关
+
+- [加速Android Studio/Gradle构建](http://blog.isming.me/2015/03/18/android-build-speed-up/)
+
+效果很明显啊！之前的构建时间为20分钟，添加了配置之后构建时间仅为36秒！！！
+
+- [Android模块化编程之引用本地的aar](http://stormzhang.com/android/2015/03/01/android-reference-local-aar/)
+
+jar：java代码
+
+aar：包含java代码和资源文件
+
+- [mvn-repo](https://github.com/Goddchen/mvn-repo)
+
+- [常用的Gradle命令](http://seniorzhai.github.io/2015/08/16/%E5%B8%B8%E7%94%A8%E7%9A%84Gradle%E5%91%BD%E4%BB%A4/)
+
+
+- [Android Studio通过Gradle命令来编译生成打包APK(Windows版本)](http://www.whatjay.com/?p=999)
+
+- [android studio生成aar包并在其他工程引用aar包](http://www.mobile-open.com/2016/972218.html)
+
+
+
+
+
+
 
