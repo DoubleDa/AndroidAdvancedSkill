@@ -2,12 +2,6 @@
 
 **目录**
 
-
-
-[TOC]
-
-
-
 ## 1.RecyclerView
 
 
@@ -78,6 +72,10 @@
 * [Android studio使用心得(五)---代码混淆和破解apk](http://my.oschina.net/aibenben/blog/371889)
 
 * [ProGuard详解](http://seniorzhai.github.io/2016/04/11/ProGuard%E8%AF%A6%E8%A7%A3/)
+
+* [Android进阶之ProGuard代码混淆](http://hanhailong.com/2015/12/28/Android%E8%BF%9B%E9%98%B6%E4%B9%8BProGuard%E4%BB%A3%E7%A0%81%E6%B7%B7%E6%B7%86/)
+
+* [美团Android资源混淆保护实践](http://tech.meituan.com/mt-android-resource-obfuscation.html)
 
 ## 6.Android内测泄漏检测
 
@@ -356,11 +354,11 @@ DexClassLoader ：可以加载文件系统上的jar、dex、apk.
 
 * [Material Design 开发利器：Android Design Support Library 介绍](https://blog.leancloud.cn/3306/)
 
-## butterknife相关
+## 32 butterknife相关
 
 * [butterknife官网](http://jakewharton.github.io/butterknife/)
 
-## MVP架构
+## 33 MVP架构
 
 * [一步一步实现Android的MVP框架](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg%3D%3D&idx=1&mid=2653577546&scene=1&sn=e10be159645a3aa8f6d6f209420fb412&srcid=07289Nbf5unjDpiRXxvw1G90)
 
@@ -377,7 +375,7 @@ DexClassLoader ：可以加载文件系统上的jar、dex、apk.
 	
 * 测试Github是否可用
 
-## Gradle相关
+## 34 Gradle相关
 
 - [加速Android Studio/Gradle构建](http://blog.isming.me/2015/03/18/android-build-speed-up/)
 
