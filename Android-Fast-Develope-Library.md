@@ -41,3 +41,15 @@ A Shelly-based library for business-logic-oriented programming. Shelly plays Dom
 
 A smart, novel and easy-to-use framework for Android Inter-Process Communication (IPC).
 
+## [在Android设备上获取照片（拍照或从相册、文件中选择）、裁剪图片、压缩图片的开源工具库](https://github.com/DoubleDa/TakePhoto)
+
+一款用于在Android设备上获取照片（拍照或从相册、文件中选择）、裁剪图片、压缩图片的开源工具库。
+
+## [SoLoader](https://github.com/facebook/SoLoader)
+
+Native code loader for Android
+
+[React-Native系列Android——SoLoader加载动态链接库](http://blog.csdn.net/megatronkings/article/details/51339639)
+
+
+

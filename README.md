@@ -396,6 +396,10 @@ aar：包含java代码和资源文件
 
 - [android studio生成aar包并在其他工程引用aar包](http://www.mobile-open.com/2016/972218.html)
 
+## 35 进行保活
+
+- [Android 进程保活招式大全](https://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653577617&idx=1&sn=623256a2ff94641036a6c9eea17baab8)
+
 
 
 
