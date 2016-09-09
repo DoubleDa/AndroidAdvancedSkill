@@ -103,6 +103,14 @@
 
 	各位好，今天的内容应该算是一个小框架了，使用Rx系列配合MVP实现异步请求，使用ButterKnife注入框架更新ui。 今天我主要讲的，今天的内容应该算是一个小框架了，使用Rx系列配合MVP实现异步请求，使用ButterKnife注入框架更新ui。今天我主要讲的是 RxAndroid+RxLifecycle+MVP+ButterKnife整体结合的小框架。
 
+* [RxJava2 浅析](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0907/6604.html)
+
+	在RxJava1.x中，最熟悉的莫过于Observable这个类了，笔者刚使用RxJava2.x时，创建一个Observable后，顿时是懵逼的。因为我们熟悉的Subscriber居然没影了，取而代之的是ObservableEmitter,俗称发射器。此外，由于没有了Subscriber的踪影，我们创建观察者时需使用Observer。而Observer也不是我们熟悉的那个Observer,其回调的Disposable参数更是让人摸不到头脑。
+
+* [RxJava 源码解读](http://blog.csdn.net/maplejaw_/article/details/52381395)
+
+	RxJava 是一个基于Java的响应式扩展实现: 即一个通过使用可观察序列来编写异步和基于事件的程序库。 它扩展了观察者模式以支持数据/事件序列，您可以根据声明好的规则通过操作符将序列组合在一起，而不用去担心低级别的线程，同步，线程安全和并发数据结构的各种问题。
+
 
 ## 9.Android中的HTTPS
 
@@ -400,7 +408,7 @@ aar：包含java代码和资源文件
 
 - [Android 进程保活招式大全](https://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653577617&idx=1&sn=623256a2ff94641036a6c9eea17baab8)
 
-## APP启动相关
+## 36 APP启动相关
 
 - [Android Application启动流程分析](http://www.jianshu.com/p/a5532ecc8377)
 
