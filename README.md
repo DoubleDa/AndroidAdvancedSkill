@@ -400,6 +400,10 @@ aar：包含java代码和资源文件
 
 - [Android 进程保活招式大全](https://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653577617&idx=1&sn=623256a2ff94641036a6c9eea17baab8)
 
+## APP启动相关
+
+- [Android Application启动流程分析](http://www.jianshu.com/p/a5532ecc8377)
+
 
 
 
