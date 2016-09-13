@@ -2,6 +2,11 @@
 
 **目录**
 
+
+[TOC]
+
+
+
 ## 1.RecyclerView
 
 
@@ -26,6 +31,10 @@
 * [十秒钟搞定RecyclerView数据绑定](http://gold.xitu.io/entry/575beb7e5bbb500053dbd451)
 
 	在上一个项目里有很多很多很多很多的RecyclerView，然后我需要写很多很多很多很多的Adapter和Viewholder——多倒没问题，但是里面有很多重复的代码这就不能忍了！每一个Adapter和ViewHolder其实做的事情非常的像：视图绑定，数据绑定，点击事件分发。还有啥？既然它们做的事情都一样，为啥我们还要傻傻的继续写着重复的代码？
+
+- [XRecyclerView](https://github.com/jianghejie/XRecyclerView)
+
+a RecyclerView that implements pullrefresh and loadingmore featrues.you can use it like a standard RecyclerView 
 
 ## 2.Android主题切换
 
@@ -76,6 +85,10 @@
 * [Android进阶之ProGuard代码混淆](http://hanhailong.com/2015/12/28/Android%E8%BF%9B%E9%98%B6%E4%B9%8BProGuard%E4%BB%A3%E7%A0%81%E6%B7%B7%E6%B7%86/)
 
 * [美团Android资源混淆保护实践](http://tech.meituan.com/mt-android-resource-obfuscation.html)
+
+- [android-proguard-snippets](https://github.com/krschultz/android-proguard-snippets)
+
+Proguard configurations for common Android libraries http://www.kevinrschultz.com/blog/2014/02/15/proguard-with-gradle/
 
 ## 6.Android内测泄漏检测
 
@@ -276,8 +289,10 @@
 * [Listview异步加载图片之优化篇](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2013/0303/948.html)
 
 	在 APP应用中，listview的异步加载图片方式能够带来很好的用户体验，同时也是考量程序性能的一个重要指标。关于listview的异步加载，网上 其实很多示例了，中心思想都差不多，不过很多版本或是有bug，或是有性能问题有待优化。有鉴于此，本人在网上找了个相对理想的版本并在此基础上进行改 造，下面就让在下阐述其原理以探索个中奥秘
+- [ViewHolder模式超简洁写法](http://android-doc.com/apps/articles/2016/03/10/viewholder%E6%A8%A1%E5%BC%8F%E8%B6%85%E7%AE%80%E6%B4%81%E5%86%99%E6%B3%95/)
 
-	
+
+
 ## 20.从零开始的Android新项目系列
 
 * [从零开始的Android新项目(1)：架构搭建篇](http://android.jobbole.com/82624/)
@@ -411,6 +426,89 @@ aar：包含java代码和资源文件
 ## 36 APP启动相关
 
 - [Android Application启动流程分析](http://www.jianshu.com/p/a5532ecc8377)
+
+## 37 Android处理器相关
+
+- [三种移动处理器(ARM, Intel和MIPS)之间的主要区别](http://www.vaikan.com/arm-vs-x86-key-differences-explained/)
+
+	安卓支持3类处理器(CPU)：ARM, Intel和MIPS。其中ARM无疑被使用得最为广泛。Intel因为普及于台式机和服务器而被人们所熟知，然而对移动行业影响力相对较小。MIPS在32位和64位嵌入式领域中历史悠久，获得了不少的成功，可目前Android的采用率在三者中最低。
+
+## 38 Android动态赋予权限
+
+- [Dexter](https://github.com/Karumi/Dexter)
+
+	Android library that simplifies the process of requesting permissions at runtime. http://karumi.com
+
+- [AndroidAcp](https://github.com/mylhyl/AndroidAcp)
+
+	一句话搞定，简化Android 6.0 系统复杂的权限操作。
+
+## 39 Android图片处理相关
+
+- [uCrop](https://github.com/Yalantis/uCrop)
+
+	Image Cropping Library for Android https://yalantis.com/blog/introducing-ucrop-our-own-image-cropping-library-for-android/
+
+- [TakePhoto](https://github.com/crazycodeboy/TakePhoto)
+
+一款用于在Android设备上获取照片（拍照或从相册、文件中选择）、裁剪图片、压缩图片的开源工具库
+
+## 40 三方库封装
+
+- [FrescoUtlis](http://p.codekk.com/detail/Android/glassLake/FrescoUtlis)
+
+## 41 调试优化工具
+
+- [ChkBugReport](https://github.com/DoubleDa/ChkBugReport)
+
+A command line tool which parses and converts android bugreport files into more human readable html reports
+
+- [battery-historian](https://github.com/google/battery-historian)
+
+Battery Historian is a tool to analyze battery consumers using Android "bugreport" files.
+
+## 42 UI/UX设计相关
+
+- [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
+
+A curated list of awesome Android UI/UX libraries https://twitter.com/wasabeef_jp
+
+## 43 应用安全
+
+- [IntentBuilder](https://github.com/emilsjolander/IntentBuilder)
+
+Type safe intent building for services and activities
+
+- [icepick](https://github.com/frankiesardo/icepick)
+
+Android Instance State made easy
+
+## 44 Android SDK源码解析
+
+- [AndroidSdkSourceAnalysis](https://github.com/LittleFriendsGroup/AndroidSdkSourceAnalysis)
+
+- [AppUninstall](https://github.com/venshine/AppUninstall)
+- [AndroidAcp](https://github.com/mylhyl/AndroidAcp)
+- [BaseLibrary](https://github.com/vivitale/BaseLibrary)
+- [taeandroiddemo](https://github.com/heartaway/taeandroiddemo)
+- [Dagger2-example](https://github.com/dlazaro66/Dagger2-example)
+
+First steps using Dagger2 dependency Injection framework in Android
+
+- [the-fucking-traps-in-android-dev](https://github.com/simple-android-framework-exchange/the-fucking-traps-in-android-dev)
+
+分享你在开发过程中遇到的坑，可以是某个具体的难点，可以分享某个好的开源库如何解决了你的问题，也可以是好的设计、开发方法、成长之路，总之把你的开发经验分享给我们吧，为你热爱的行业做出一份贡献。
+
+
+
+
+
+
+
+
+
+
+
 
 
 

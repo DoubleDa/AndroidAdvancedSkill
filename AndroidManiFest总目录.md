@@ -168,34 +168,36 @@ AndroidManiFest总目录
 
 ```xml
 <activity android:allowEmbedded=["true" | "false"]
-          android:allowTaskReparenting=["true" | "false"]
-          android:alwaysRetainTaskState=["true" | "false"]
+          android:allowTaskReparenting=["true" | "false"]//是否允许activity更换从属的任务，比如从短信息任务切换到浏览器任务
+          android:alwaysRetainTaskState=["true" | "false"]//是否保留状态不变， 比如切换回home, 再从新打开， activity处于最后的状态
           android:autoRemoveFromRecents=["true" | "false"]
           android:banner="drawable resource"
-          android:clearTaskOnLaunch=["true" | "false"]
+          android:clearTaskOnLaunch=["true" | "false"]//比如 P 是 activity, Q 是被P 触发的 activity, 然后返回Home, 从新启动 P，是否显示 Q
           android:configChanges=["mcc", "mnc", "locale",
                                  "touchscreen", "keyboard", "keyboardHidden",
                                  "navigation", "screenLayout", "fontScale",
                                  "uiMode", "orientation", "screenSize",
                                  "smallestScreenSize"]
+                                 //当配置list发生修改时，是否调用 onConfigurationChanged() 方法 比如 “locale|navigation|orientation”
           android:documentLaunchMode=["intoExisting" | "always" |
                                   "none" | "never"]
-          android:enabled=["true" | "false"]
-          android:excludeFromRecents=["true" | "false"]
-          android:exported=["true" | "false"]
-          android:finishOnTaskLaunch=["true" | "false"]
+          android:enabled=["true" | "false"]//activity 是否可以被实例化
+          android:excludeFromRecents=["true" | "false"]//是否可被显示在最近打开的activity列表里
+          android:exported=["true" | "false"]//是否允许activity被其它程序调用
+          android:finishOnTaskLaunch=["true" | "false"]//是否关闭已打开的activity当用户重新启动这个任务的时候
           android:hardwareAccelerated=["true" | "false"]
           android:icon="drawable resource"
           android:label="string resource"
           android:launchMode=["standard" | "singleTop" |
-                              "singleTask" | "singleInstance"]
+                              "singleTask" | "singleInstance"]//activity启动方式， “standard” “singleTop” “singleTask” “singleInstance”
+其中前两个为一组， 后两个为一组
           android:maxRecents="integer"
-          android:multiprocess=["true" | "false"]
+          android:multiprocess=["true" | "false"]//允许多进程
           android:name="string"
-          android:noHistory=["true" | "false"]  
+          android:noHistory=["true" | "false"]//是否需要移除这个activity当用户切换到其他屏幕时
           android:parentActivityName="string" 
           android:permission="string"
-          android:process="string"
+          android:process="string"//一 个activity运行时所在的进程名，所有程序组件运行在应用程序默认的进程中，这个进程名跟应用程序的包名一致。中的元素process属性能够为所有组件设定一个新的默认值。但是任何组件都可以覆盖这个默认值，允许你将你的程序放在多进程中运行。 如果这个属性被分配的名字以:开头，当这个activity运行时, 一个新的专属于这个程序的进程将会被创建。如果这个进程名以小写字母开头，这个activity将会运行在全局的进程中，被它的许可所提供。
           android:relinquishTaskIdentity=["true" | "false"]
           android:resizeableActivity=["true" | "false"]
           android:screenOrientation=["unspecified" | "behind" |
@@ -204,20 +206,34 @@ AndroidManiFest总目录
                                      "sensorLandscape" | "sensorPortrait" |
                                      "userLandscape" | "userPortrait" |
                                      "sensor" | "fullSensor" | "nosensor" |
-                                     "user" | "fullUser" | "locked"]
-          android:stateNotNeeded=["true" | "false"]
+                                     "user" | "fullUser" | "locked"]//activity显示的模式, “unspecified” 默认值 “landscape” 风景画模式，宽度比高度大一些 “portrait” 肖像模式, 高度比宽度大。 “user” 用户的设置 “behind” “sensor” “nosensor”
+          android:stateNotNeeded=["true" | "false"]//是否 activity被销毁和成功重启并不保存状态
           android:supportsPictureInPicture=["true" | "false"]
-          android:taskAffinity="string"
+          android:taskAffinity="string"//activity的亲属关系， 默认情况同一个应用程序下的activity有相同的关系
           android:theme="resource or theme"
           android:uiOptions=["none" | "splitActionBarWhenNarrow"]
           android:windowSoftInputMode=["stateUnspecified",
                                        "stateUnchanged", "stateHidden",
                                        "stateAlwaysHidden", "stateVisible",
                                        "stateAlwaysVisible", "adjustUnspecified",
-                                       "adjustResize", "adjustPan"] >   
+                                       "adjustResize", "adjustPan"] >//
     . . .
 </activity>
 ```
+
+**说明**：
+
+- **stateUnspecified**	软键盘的状态(是否它是隐藏或可见)没有被指定。系统将选择一个合适的状态或依赖于主题的设置。这个是为了软件盘行为默认的设置。
+- **stateUnchanged**	软键盘被保持无论它上次是什么状态，是否可见或隐藏，当主窗口出现在前面时。
+- **stateHidden**	当用户选择该Activity时，软键盘被隐藏——也就是，当用户确定导航到该Activity时，而不是返回到它由于离开另一个Activity。
+- **stateAlwaysHidden**	软键盘总是被隐藏的，当该Activity主窗口获取焦点时。
+- **stateVisible**	软键盘是可见的，当那个是正常合适的时(当用户导航到Activity主窗口时)。
+- **stateAlwaysVisible**	当用户选择这个Activity时，软键盘是可见的——也就是，也就是，当用户确定导航到该Activity时，而不是返回到它由于离开另一个Activity。
+- **adjustUnspecified**	它不被指定是否该Activity主窗口调整大小以便留出软键盘的空间，或是否窗口上的内容得到屏幕上当前的焦点是可见的。系统将自动选择这些模式中一种主要依赖于是否窗口的内容有任何布局视图能够滚动他们的内容。如果有这样的一个视图，这个窗口将调整大小，这样的假设可以使滚动窗口的内容在一个较小的区域中可见的。这个是主窗口默认的行为设置。
+- **adjustResize**	该Activity主窗口总是被调整屏幕的大小以便留出软键盘的空间。
+- **adjustPan**	该Activity主窗口并不调整屏幕的大小以便留出软键盘的空间。相反，当前窗口的内容将自动移动以便当前焦点从不被键盘覆盖和用户能总是看到输入内容的部分。这个通常是不期望比调整大小，因为用户可能关闭软键盘以便获得与被覆盖内容的交互操作。
+
+
 
 ### 在以下标签中使用
 
