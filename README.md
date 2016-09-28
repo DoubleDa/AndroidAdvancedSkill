@@ -499,6 +499,60 @@ First steps using Dagger2 dependency Injection framework in Android
 
 分享你在开发过程中遇到的坑，可以是某个具体的难点，可以分享某个好的开源库如何解决了你的问题，也可以是好的设计、开发方法、成长之路，总之把你的开发经验分享给我们吧，为你热爱的行业做出一份贡献。
 
+## 45 Webview相关
+
+- [Android WebView常见问题及解决方案汇总](http://blog.csdn.net/t12x3456/article/details/13769731)
+
+	就目前而言，如何应对版本的频繁更新呢，又如何灵活多变地展示我们的界面呢,这又涉及到了web app与native app之间孰优孰劣的争论. 于是乎,一种混合型的app诞生了,灵活多变的部分，如淘宝商城首页的活动页面，一集凡客诚品中我们都可以见到web 页面与native页面的混合，既利用了web app的灵活易更新，也借助了native app本身的效率.
+
+
+## 46 Android热更新
+
+- [Instant Run工作原理及用法](http://www.jianshu.com/p/2e23ba9ff14b)
+
+	Instant Run，是android studio2.0新增的一个运行机制，在你编码开发、测试或debug的时候，它都能显著减少你对当前应用的构建和部署的时间。当我们第一次点击run、debug按钮的时候，它运行时间和我们往常一样。但是接下去的时间里，你每次修改代码后点击run、debug按钮，对应的改变将迅速的部署到你正在运行的程序上，传说速度快到你都来不及把注意力集中到手机屏幕上，它就已经做好相应的更改。
+
+- [Android热更新方案Robust](http://www.open-open.com/lib/view/open1473838879653.html)
+
+	去年底的Android Dev Summit上，Google高调发布了Android Studio 2.0，其中最重要的新特性Instant Run，实现了对代码修改的实时生效（热插拔）。我们在了解Instant Run原理之后，实现了一个兼容性更强的热补丁方案，这就是产品化的hotpatch框架－－Robust。
+
+
+## 47 Android N相关
+
+- [Android N混合编译与对热补丁影响深度解析](https://github.com/WeMobileDev/article/blob/master/Android_N%E6%B7%B7%E5%90%88%E7%BC%96%E8%AF%91%E4%B8%8E%E5%AF%B9%E7%83%AD%E8%A1%A5%E4%B8%81%E5%BD%B1%E5%93%8D%E8%A7%A3%E6%9E%90.md)
+
+## 48 热修复技术
+
+- [基于Instant Run思想的HotFix方案实现](http://www.open-open.com/lib/view/open1474699014422.html)
+
+	近一年来，各种HotFix库层出不穷，各家大厂百花齐放，QQ空间最早提出了自己的热修复实现，接着阿里也开源了自家的AndFix（貌似阿里百川已经给开发者提供了新的Hotfix功能），现在微信又有了Tinker，各家都如此关心HotFix，无非是线上版本的bug对产品影响太大，尤其是DAU比较高的app，更是不能容忍。前几天看到美团基于Instant run原理推出了自己的Hotfix库，不过貌似没有开源，于是自己就按照Instant run的原理也鼓捣出了一个简单的HotFix实现， 可以在不重启App和Activity的条件下实现修复， 代码地址会在文章最后贴出，供大家研究学习。
+
+## 49 View相关
+
+- [实现View滑动的七种方法](http://www.open-open.com/lib/view/open1474698624932.html)
+
+## 50 Service源码
+
+- [从源码出发深入理解 Android Service](http://www.open-open.com/lib/view/open1474617316156.html)
+
+## 51 JsBridge
+
+- [JS 与 Native 安全交互浅析，两种方式实现](http://www.open-open.com/lib/view/open1474616675935.html)
+
+- [JsBridge](https://github.com/lzyzsd/JsBridge)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
