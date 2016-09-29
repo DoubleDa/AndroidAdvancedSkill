@@ -457,6 +457,8 @@ aar：包含java代码和资源文件
 
 - [FrescoUtlis](http://p.codekk.com/detail/Android/glassLake/FrescoUtlis)
 
+- [解耦项目中的图片加载库](http://juhonggang.github.io/2016/09/22/%E8%A7%A3%E8%80%A6%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
 ## 41 调试优化工具
 
 - [ChkBugReport](https://github.com/DoubleDa/ChkBugReport)
@@ -540,6 +542,18 @@ First steps using Dagger2 dependency Injection framework in Android
 - [JS 与 Native 安全交互浅析，两种方式实现](http://www.open-open.com/lib/view/open1474616675935.html)
 
 - [JsBridge](https://github.com/lzyzsd/JsBridge)
+
+## 52 项目架构
+
+- [一个Android项目搞定所有主流架构](http://www.open-open.com/lib/view/open1474594334149.html)
+
+## 53 电量优化
+
+- [Android耗电量测试及排查方法](http://mp.weixin.qq.com/s?__biz=MzAwNTI4NzIxMQ==&mid=2651473357&idx=1&sn=2caec1b5ea02a95e7a9526092f13751a&chksm=80e01989b797909fbb662f96294524cee35252a14454313501024bc30aa40675508fcae228de&scene=2&srcid=0920179NkApCP5usiHOi339F&from=timeline&isappinstalled=0#wechat_redirect)
+	Android应用耗电量一直是比较麻烦的,也是大家所关注的问题，在4.4系统之前，google一直没有相关API暴露给外面，所以要研究4.4系统以前的耗电量，就需要研读Android的源码；5.0之后的系统，就可以使用adb命令直接获取。
+
+
+- [App优化之提升你的App启动速度之实例挑战](http://www.jianshu.com/p/4f10c9a10ac9?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
 
 
