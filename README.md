@@ -136,8 +136,16 @@ Proguard configurations for common Android libraries http://www.kevinrschultz.co
 
 * [Android自定义view详解](http://android.jobbole.com/83835/)
 
-	对于我这样一个Android初级开发者来说，自定义View一直是一个遥不可及的东西，每次看到别人做的特别漂亮的控件，自己心里那个痒痒啊，可是又生性懒惰，自己不肯努力去看书，只能望而兴叹，每次做需求用到自定义控件，就直接去Github上找，找到合适的就用，找不到合适的，凑合也用，反正从来没想过要自己来做这样的东西，可是毕业以后到了新公司，为了自己的荣誉，这次不得不硬着头皮自己来了，一个月的紧张开发过后，回头再看，自定义控件也无非那么回事，只要记得几个要领，几乎是手到擒来。
-	
+	对于我这样一个Android初级开发者来说，自定义View一直是一个遥不可及的东西，每次看到别人做的特别漂亮的控件，自己心里那个痒痒啊，可是又生性懒惰，自己不肯努力去看书，只能望而兴叹，每次做需求用到自定义控件，就直接去Github上找，找到合适的就用，找不到合适的，凑合也用，反正从来没想过要自己来做这样的东西，可是毕业以后到了新公司，为了自己的荣誉，这次不得不硬着头皮自己来了，一个月的紧张开发过后，回头再看，自定义控件也无非那么回事，只要记得几个要领，几乎是手到擒来
+
+- [Android 自定义View之边缘凹凸的优惠券效果](http://www.open-open.com/lib/view/open1475139223472.html)
+
+	本篇文章讲的是自定义View之边缘凹凸的优惠券效果，之前有见过很多优惠券的效果都是使用了边缘凹凸的样式。和往常一样，主要总结一下在自定义View的开发过程中需要注意的一些地方。
+
+- [贝塞尔曲线之购物车动画效果](http://www.open-open.com/lib/view/open1475136655228.html)
+
+
+
 ## 11.Android事件分发
 
 * [Android 中的事件分发和处理](http://android.jobbole.com/83826/)
@@ -547,13 +555,42 @@ First steps using Dagger2 dependency Injection framework in Android
 
 - [一个Android项目搞定所有主流架构](http://www.open-open.com/lib/view/open1474594334149.html)
 
-## 53 电量优化
+## 53 性能优化
 
 - [Android耗电量测试及排查方法](http://mp.weixin.qq.com/s?__biz=MzAwNTI4NzIxMQ==&mid=2651473357&idx=1&sn=2caec1b5ea02a95e7a9526092f13751a&chksm=80e01989b797909fbb662f96294524cee35252a14454313501024bc30aa40675508fcae228de&scene=2&srcid=0920179NkApCP5usiHOi339F&from=timeline&isappinstalled=0#wechat_redirect)
 	Android应用耗电量一直是比较麻烦的,也是大家所关注的问题，在4.4系统之前，google一直没有相关API暴露给外面，所以要研究4.4系统以前的耗电量，就需要研读Android的源码；5.0之后的系统，就可以使用adb命令直接获取。
 
 
 - [App优化之提升你的App启动速度之实例挑战](http://www.jianshu.com/p/4f10c9a10ac9?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
+- [Android应用性能优化系列视图篇——隐藏在资源图片中的内存杀手](http://www.open-open.com/lib/view/open1474966436570.html)
+
+	图片加载性能优化永远是 Android 领域中一个无法绕过的话题，经过数年的发展，涌现了很多成熟的图片加载开源库，比如Fresco、Picasso、UIL等等，使得图片加载不再是一个头疼的问题，并且大幅降低了OOM发生的概率。然而，在图片加载方面我们是否可以就此放松警惕了呢？
+
+- [阿里无线11.11：手机淘宝 521 性能优化项目揭秘](http://www.infoq.com/cn/articles/mobile-taobao-521-performance-optimization-project)
+
+	又是一年双十一，亿万用户都会在这一天打开手机淘宝，高兴地在会场页面不断浏览，面对琳琅满目的商品图片，抢着添加购物车，下单付款。为了让用户更顺畅更方便地实现这一切，做到“如丝般顺滑”，双十一前夕手机淘宝成立了“521”（我爱你）性能优化项目，在日常优化基础之上进行三个方面的专项优化攻关，分别是1)H5页面的一秒法则；2)启动时间和页面帧率提升20%；3)Android内存占用降低50%。优化过程中遇到的困难，思考后找寻的方案，实施后提取的经验都会在下面详细地介绍给读者。
+
+## 54 MVVM架构
+
+- [Android MVVM之Data Binding](http://www.open-open.com/lib/view/open1475139905023.html)
+
+	Data Binding Library 是一个灵活、兼容的 support library ,可以在Android2.1（API 7）以上使用。使用DataBing,Gradle的Android Plugin需要在1.5.0-alpha1以上。
+
+## 55 Activity相关
+
+- [Activity横竖屏切换的那些事（生命周期，数据恢复，防止重建）](http://www.open-open.com/lib/view/open1475133107546.html)
+
+	Activity的生命周期，这是每个Android开发者必须了解的知识。Activity是四大组件之一，而且是使用最频繁的组件。横竖屏切换是每个Android开发者都会遇到的问题。那么横竖屏切换后Activity到底发生了什么呢？
+
+## 56 数据库相关
+
+- [SQLCipher android 数据库加密](http://www.open-open.com/lib/view/open1475130932566.html)
+
+
+
+
+
 
 
 
