@@ -13,3 +13,13 @@ Android开发问题
 
 - [ScrollView 嵌套 RecyclerView 高度自适应](http://chinauv.lofter.com/post/1cc83a20_957e749)
 
+- [Android微信上的SVG](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0909/3433.html)
+
+- [WebP 探寻之路](https://isux.tencent.com/introduction-of-webp.html)
+
+protobuf与flatbuff
+
+- [FlatBuffers in Android - introduction](http://frogermcs.github.io/flatbuffers-in-android-introdution/)
+
+
+

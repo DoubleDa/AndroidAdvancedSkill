@@ -254,7 +254,10 @@ Proguard configurations for common Android libraries http://www.kevinrschultz.co
 	在开发APP的过程中，攻城狮少不了要跟ListView、GridView这些组件眉来眼去，暗送几波秋波。自然原生态美人BaseAdapter更是程序员的最爱，有了它，我们想怎么干就能怎么干，嘿嘿，你懂的O(∩_∩)O哈哈~
 
 	但是，每次写一个BaseAdapter，我们都很自觉的给他写一个ViewHolder，一两个还好，万一应用程序中有数不清的ListView，呵呵~你妹！千篇一律，看得都审美疲劳。作为最伟大的第二十二世纪的程序员们，脱掉、搞上永远是我们最真挚的追求，所以我们要怎么将ViewHolder从BaseAdapter中脱掉呢？绝非不是不用，而是要将其搞成一个华丽丽的工具类实现，收入角落那个寂寞得tools类中。
-	
+
+- [RecyclerView、ListView实现单选列表的优雅之路](http://blog.csdn.net/zxt0601/article/details/52703280)
+
+
 ## 17.Android性能优化
 
 * [Android 性能优化之被忽视的内存泄漏](http://android.jobbole.com/83898/)
@@ -402,9 +405,8 @@ DexClassLoader ：可以加载文件系统上的jar、dex、apk.
 * [浅谈Andorid开发中的MVP模式](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0225/3994.html)
 
 	看到MVP，大家肯定会想什么是MVP呢？这个我可以肯定的告诉大家MVP（Most Valuable Player）是最有价值球员的意思，这当然是开玩笑了。之所以会出现MVP这种架构模式，是因为我相信大家在开发App时，肯定会发现，Activity的负担非常重，既要初始化控件，又要写一些逻辑操作的展示等等，有时候很多Activity中的代码都充当了Controller和Model的角色，所以你会发现Activity违背单一职责原则，负担过重。所以，就出现了这么一种架构模式，叫MVP，并不是最有价值球员哦。
-	
-	
-* 测试Github是否可用
+
+- [为什么选择MVP？](https://github.com/boredream/DesignResCollection/tree/master/DesignResCollection_MVP)
 
 ## 34 Gradle相关
 
@@ -540,6 +542,8 @@ First steps using Dagger2 dependency Injection framework in Android
 ## 49 View相关
 
 - [实现View滑动的七种方法](http://www.open-open.com/lib/view/open1474698624932.html)
+
+- [Android 自定义控件之圆形扩散View（DiffuseView）](http://blog.csdn.net/airsaid/article/details/52683193)
 
 ## 50 Service源码
 
