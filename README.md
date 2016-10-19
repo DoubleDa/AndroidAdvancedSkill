@@ -374,6 +374,7 @@ DexClassLoader ：可以加载文件系统上的jar、dex、apk.
 ## 28.Android优化工具
 
 * [值得推荐的Android应用性能检测工具列表](http://android.jobbole.com/82572/)
+* [Android应用开发性能优化完全分析](http://blog.csdn.net/yanbober/article/details/48394201)
 
 
 ## 29.Android新编译系统
@@ -468,6 +469,7 @@ aar：包含java代码和资源文件
 - [FrescoUtlis](http://p.codekk.com/detail/Android/glassLake/FrescoUtlis)
 
 - [解耦项目中的图片加载库](http://juhonggang.github.io/2016/09/22/%E8%A7%A3%E8%80%A6%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+- [真实案例出发，再谈retrofit封装](http://www.open-open.com/lib/view/open1476413037794.html)
 
 ## 41 调试优化工具
 
@@ -517,6 +519,8 @@ First steps using Dagger2 dependency Injection framework in Android
 
 	就目前而言，如何应对版本的频繁更新呢，又如何灵活多变地展示我们的界面呢,这又涉及到了web app与native app之间孰优孰劣的争论. 于是乎,一种混合型的app诞生了,灵活多变的部分，如淘宝商城首页的活动页面，一集凡客诚品中我们都可以见到web 页面与native页面的混合，既利用了web app的灵活易更新，也借助了native app本身的效率.
 
+- [Android WebView 漏洞的利用、局限与终结](http://www.open-open.com/lib/view/open1476252611385.html)
+
 
 ## 46 Android热更新
 
@@ -544,6 +548,7 @@ First steps using Dagger2 dependency Injection framework in Android
 - [实现View滑动的七种方法](http://www.open-open.com/lib/view/open1474698624932.html)
 
 - [Android 自定义控件之圆形扩散View（DiffuseView）](http://blog.csdn.net/airsaid/article/details/52683193)
+- [想要亲手实现一个刷新控件，你只需要掌握这些知识](http://www.open-open.com/lib/view/open1476176237957.html)
 
 ## 50 Service源码
 
@@ -575,6 +580,8 @@ First steps using Dagger2 dependency Injection framework in Android
 
 	又是一年双十一，亿万用户都会在这一天打开手机淘宝，高兴地在会场页面不断浏览，面对琳琅满目的商品图片，抢着添加购物车，下单付款。为了让用户更顺畅更方便地实现这一切，做到“如丝般顺滑”，双十一前夕手机淘宝成立了“521”（我爱你）性能优化项目，在日常优化基础之上进行三个方面的专项优化攻关，分别是1)H5页面的一秒法则；2)启动时间和页面帧率提升20%；3)Android内存占用降低50%。优化过程中遇到的困难，思考后找寻的方案，实施后提取的经验都会在下面详细地介绍给读者。
 
+- [Facebook App 优化工具 ReDex 优化的 6 点及未优化的一大方面](http://blogread.cn/it/article/8057?f=catetitle)
+
 ## 54 MVVM架构
 
 - [Android MVVM之Data Binding](http://www.open-open.com/lib/view/open1475139905023.html)
@@ -590,6 +597,11 @@ First steps using Dagger2 dependency Injection framework in Android
 ## 56 数据库相关
 
 - [SQLCipher android 数据库加密](http://www.open-open.com/lib/view/open1475130932566.html)
+
+## 57 增量更新
+
+- [Android 增量更新完全解析 是增量不是热修复](http://gold.xitu.io/post/57fba92abf22ec00649de645)
+
 
 
 
