@@ -602,6 +602,12 @@ First steps using Dagger2 dependency Injection framework in Android
 
 - [Android 增量更新完全解析 是增量不是热修复](http://gold.xitu.io/post/57fba92abf22ec00649de645)
 
+## 58 Android架构相关
+
+- [Atlas：手淘Native容器化框架和思考](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112809&idx=1&sn=8d45d8960acde6128b121fb10a6d7bb7&chksm=844c6cb4b33be5a24cd462aa2fa96ce206877e0a87959df9aba03826d6be045dcaf6b9748739&mpshare=1&scene=2&srcid=1019jjkjbYJCdkgj2j1wQqTK&from=timeline&isappinstalled=0#wechat_redirect)
+
+- [Android业务组件化开发实践](http://kymjs.com/code/2016/10/18/01)
+
 
 
 
