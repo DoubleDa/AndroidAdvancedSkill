@@ -1,12 +1,5 @@
 # Android进阶技能点
 
-**目录**
-
-
-[TOC]
-
-
-
 ## 1.RecyclerView
 
 
@@ -607,6 +600,14 @@ First steps using Dagger2 dependency Injection framework in Android
 - [Atlas：手淘Native容器化框架和思考](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112809&idx=1&sn=8d45d8960acde6128b121fb10a6d7bb7&chksm=844c6cb4b33be5a24cd462aa2fa96ce206877e0a87959df9aba03826d6be045dcaf6b9748739&mpshare=1&scene=2&srcid=1019jjkjbYJCdkgj2j1wQqTK&from=timeline&isappinstalled=0#wechat_redirect)
 
 - [Android业务组件化开发实践](http://kymjs.com/code/2016/10/18/01)
+
+## 59 Android项目重构
+
+- [Android 开发软件架构思考以及经验总结](http://www.open-open.com/lib/view/open1484548261803.html)
+
+- [人人车 Android 客户端架构演进实录](http://www.open-open.com/lib/view/open1484208077561.html)
+
+- [英语流利说 Android 架构演进](https://blog.dreamtobe.cn/2016/05/29/lls_architecture/)
 
 
 
